@@ -9,7 +9,7 @@ var value
 router.get('/', function(req, res, next) {
   factor += 1
   value = product * factor
-  res.send('Product is: ' + product);
+  res.send('Product is: ' + value);
 });
 
 module.exports = router;
